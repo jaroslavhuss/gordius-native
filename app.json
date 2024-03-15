@@ -18,7 +18,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.jaroslav.huss.gordius.2022"
     },
     "android": {
       "adaptiveIcon": {
@@ -28,6 +29,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7fefb669-ac54-403a-bd60-c79bc9394c40"
+      }
     }
   }
 }
